@@ -1,9 +1,39 @@
 body {
-    color: #005eb8;
+  color: #005eb8;
+  text-align: center;
+  font-family: Times New Roman;
 }
 
 img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
+h3 {
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  list-style: circle;
+}
+
+.title {
+  color: #005eb8;
+  text-align: center;
+}
+
+.projectDisplay {
+  color: red;
+}
+
+.biography {
+  color: red;
+}
+
+.links {
+  font-size: 20px;
+}
