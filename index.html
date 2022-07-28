@@ -2,53 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="styles/style.css" rel="stylesheet" />
+    <link href="assets/styles/style.css" rel="stylesheet" />
     <title>Time Expeditions</title>
   </head>
 
   <body>
-    <div class="title">
-      <h1>Time Expeditions</h1>
-      <h2>A Engineering Firm Building Long Standing Relationships</h2>
-      <nav>
-        <ul>
-          <li>Bio</li>
-          <li>Projects</li>
-          <li>Technical Expertise</li>
-        </ul>
-      </nav>
+    <nav class="navigation">
+      <a href="index.html" class="nav-link">Time Expeditions</a>
+      <a href="assets/html/about.html" class="nav-link">About Franklin</a>
+      <a href="assets/html/projects.html" class="nav-link">Projects</a>
+      <a href="assets/html/contact.html" class="nav-link">Contact</a>
+    </nav>
 
+    <main class="main">
+      <p>An Engineering Firm Building Long Standing Relationships</p>
       <img
-        src="images/landscape.jpeg"
+        src="assets/images/landscape.jpeg"
         alt="A landscape photograph of West Chester, Pennsylvania, USA"
-        width="100"
-        height="100"
+        width="100%"
+        height="100%"
       />
 
       <p>
         Time Expeditions architects Software Solutions for analytic and quantitative problems. Analytics offerings include
         sentiment analysis.
       </p>
-    </div>
+    </main>
 
-    <div class="projectDisplay">
-      <h3>Projects</h3>
+    <div class="projects">
+      <p>Projects</p>
       <ul>
+        <li>JavaScript React</li>
         <li>Python TensorFlow</li>
         <li>Java Desktop</li>
         <li>Swift Mobile</li>
       </ul>
     </div>
 
-    <div class="biography">
-      <p>Franklin Miranda - Senior Software Engineer</p>
-      <img src="images/franklinMiranda.jpeg" alt="Franklin Miranda" width="100" height="100" />
-
-      <a href="https://github.com/FranklinMiranda" class="links">Github</a>
-      <a href="www.linkedin.com/in/mirandafranklin" class="links">Linkedin</a>
-    </div>
-
-    <script src="scripts/script.js"></script>
+    <script src="assets/scripts/script.js"></script>
   </body>
 </html>
