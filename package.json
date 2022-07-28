@@ -1,0 +1,25 @@
+{
+  "name": "timeexpeditions",
+  "version": "1.0.0",
+  "description": "Time Expeditions company website.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranklinMiranda/Time-Expeditions.git"
+  },
+  "keywords": [
+    "WebDev"
+  ],
+  "author": "Franklin Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FranklinMiranda/Time-Expeditions/issues"
+  },
+  "homepage": "https://github.com/FranklinMiranda/Time-Expeditions#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
